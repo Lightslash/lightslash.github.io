@@ -1,6 +1,15 @@
+body{
+	background-color: black;
+	color: white;
+}
+
 .profile-pic {
 	max-height: 64px;
 	margin-left: 1vw;
 	margin-right: 5px;
 	border-radius: 50%;
+}
+
+.navbar {
+	background-color: black;
 }
