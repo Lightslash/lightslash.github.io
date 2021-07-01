@@ -1,5 +1,10 @@
+@font-face {
+  font-family: ZillaSlabBold;
+  src: url(font/ZillaSlab-Bold.ttf);
+}
+
 body{
-	background-color: black;
+	background-color: #070919;
 	color: white;
 }
 
@@ -12,4 +17,20 @@ body{
 
 .navbar {
 	background-color: black;
+}
+
+.navbar .navbar-text {
+   float: none;
+   display: inline-block;
+}
+
+.welcome {
+	font-family: ZillaSlabBold;
+	line-height: 1.5;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.welcome img {
+	max-height: 50vh;
 }
