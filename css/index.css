@@ -1,11 +1,19 @@
 @font-face {
   font-family: ZillaSlabBold;
-  src: url(font/ZillaSlab-Bold.ttf);
+  src: url(../font/ZillaSlab-Bold.ttf);
 }
 
-body{
+@font-face {
+	font-family: ZillaSlab;
+	src: url(../font/ZillaSlab-Regular.ttf);
+}
+
+body {
 	background-color: #070919;
 	color: white;
+	line-height: 1.5;
+	font-family: ZillaSlab;
+	font-size: 1.2rem;
 }
 
 .profile-pic {
@@ -24,13 +32,22 @@ body{
    display: inline-block;
 }
 
-.welcome {
+#welcome {
 	font-family: ZillaSlabBold;
 	line-height: 1.5;
 	font-size: 2rem;
 	font-weight: 700;
 }
 
-.welcome img {
-	max-height: 50vh;
+#welcome img {
+	max-height: 40vh;
+}
+
+#about object{
+	width: 60px;
+	height: 48px;
+}
+
+#Dribble-Light-Preview {
+	fill: #94d31b
 }
