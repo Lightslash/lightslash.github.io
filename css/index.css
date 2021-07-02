@@ -16,6 +16,13 @@ body {
 	font-size: 1.2rem;
 }
 
+h1 {
+	font-family: ZillaSlabBold;
+	line-height: 1.5;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
 .profile-pic {
 	max-height: 64px;
 	margin-left: 1vw;
@@ -30,13 +37,6 @@ body {
 .navbar .navbar-text {
    float: none;
    display: inline-block;
-}
-
-#welcome {
-	font-family: ZillaSlabBold;
-	line-height: 1.5;
-	font-size: 2rem;
-	font-weight: 700;
 }
 
 #welcome img {
