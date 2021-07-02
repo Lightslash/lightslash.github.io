@@ -23,7 +23,7 @@ h1 {
 	font-weight: 700;
 }
 
-.profile-pic {
+.navbar-profile-pic {
 	max-height: 64px;
 	margin-left: 1vw;
 	margin-right: 5px;
@@ -46,6 +46,10 @@ h1 {
 #about object{
 	width: 60px;
 	height: 48px;
+}
+
+.contact-profile-pic {
+	border-radius: 50%;
 }
 
 #footer {
