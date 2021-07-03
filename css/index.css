@@ -23,6 +23,36 @@ h1 {
 	font-weight: 700;
 }
 
+.link {
+  color: #00c58e;
+  text-decoration: none;  
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+}
+
+.link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #00c58e;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.link:hover{
+	color: #00c58e;
+}
+
+.link:hover:after { 
+  width: 100%; 
+  left: 0; 
+  color: #00c58e;
+}
+
 .bg-custom-light {
 	background-color: #0D1131;
 }
