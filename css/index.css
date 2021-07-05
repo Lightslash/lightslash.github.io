@@ -92,10 +92,28 @@ h1 {
 	height: 80%;
 }
 
-.project-img {
+#project-img-1 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/noxusbadsite.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#project-img-2 {
 	width: 100%;
 	height: 100%;
 	background-image: url("../img/the-forgotten-cave.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#project-img-3 {
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/mobagame.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50%;
