@@ -1,6 +1,6 @@
 @font-face {
-  font-family: ZillaSlabBold;
-  src: url(../font/ZillaSlab-Bold.ttf);
+	font-family: ZillaSlabBold;
+	src: url(../font/ZillaSlab-Bold.ttf);
 }
 
 @font-face {
@@ -24,23 +24,23 @@ h1 {
 }
 
 .link {
-  color: #00c58e;
-  text-decoration: none;  
-  display: inline-block;
-  position: relative;
-  font-weight: bold;
+	color: #00c58e;
+	text-decoration: none;  
+	display: inline-block;
+	position: relative;
+	font-weight: bold;
 }
 
 .link:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #00c58e;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #00c58e;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
 }
 
 .link:hover{
@@ -48,9 +48,9 @@ h1 {
 }
 
 .link:hover:after { 
-  width: 100%; 
-  left: 0; 
-  color: #00c58e;
+	width: 100%; 
+	left: 0; 
+	color: #00c58e;
 }
 
 .bg-custom-light {
@@ -69,12 +69,56 @@ h1 {
 }
 
 .navbar .navbar-text {
-   float: none;
-   display: inline-block;
+	float: none;
+	display: inline-block;
 }
 
 #welcome img {
 	max-height: 40vh;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) } 
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+.heart {
+  animation: animateHeart 1.2s infinite;
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: scale(0.8);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.8);
+  }
 }
 
 #about object{
@@ -88,13 +132,13 @@ h1 {
 }
 
 .project-item {
-  border: 1px solid transparent;
+	border: 1px solid transparent;
 }
 
 .project-item:hover {
-	transition: border 0.75s ease;
+	transition: border 1s ease;
 	border-color: #00C58E;
-  border-radius: 25px;
+	border-radius: 25px;
 }
 
 .img-placeholder {
@@ -134,10 +178,10 @@ h1 {
 }
 
 @media (max-width: 450px) {
-  .contact-profile-pic {
-    max-width: 150px;
-    height: 138.5px;
-  }
+	.contact-profile-pic {
+		max-width: 150px;
+		height: 138.5px;
+	}
 }
 
 #footer {
